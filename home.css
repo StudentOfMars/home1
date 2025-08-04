@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+}
+
+.container{
+    max-width: 1600px;
+}
+
+.nav{
+    margin: 0px 0px 80px 0px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 6px 6px 15px 1px gray;
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: gray;
+    position: relative;
+}
+
+a:hover{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+    padding-bottom: 20px;
+}
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav button{
+    background-color: white;
+    border-radius: 15px;
+    border: 3px solid orangered ;
+    color: orangered;
+    padding: 0px 20px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+}
+
+.nav button:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.nav_block{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_box{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.nav_text1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    color: darkblue;
+}
+
+.nav_text2{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: orangered;
+    width: 300px;
+}
+
+input{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: black;
+    padding: 20px;
+    width: 300px;
+}
+
+.nav_box button{
+    width: 120px;
+    border-radius: 15px;
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+.main_block{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px auto;
+    width: 1400px;
+    flex-wrap: wrap;
+}
+
+h3, h4, h5{
+    text-align: center;
+}
+
+h4{
+    margin-bottom: 20px;
+}
+
+h3{
+    color: gray;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+h5{
+    color: rgb(78, 78, 78);
+}
+
+.main_box{
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 1px rgb(168, 168, 168);
+    padding: 20px 10px;
+    margin: 10px;
+    height: 300px;
+}
+
+.main_box img{
+    position: relative;
+    left: 80px;
+}
+
+.footer_block{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: -6px 0px 25px 1px gray;
+    padding: 20px;
+}
+
+.footer_block a{
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration:underline;
+}
+
+.footer_block a:hover{
+    border: none;
+    color: black;
+    padding: 0px;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    color: rgb(54, 54, 54);
+}
